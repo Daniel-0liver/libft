@@ -6,17 +6,17 @@
 /*   By: dateixei <dateixei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/20 23:52:57 by dateixei          #+#    #+#             */
-/*   Updated: 2022/04/07 00:49:04 by dateixei         ###   ########.fr       */
+/*   Updated: 2022/05/12 00:44:08 by dateixei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
 # include "libft.h"
-#include <stdio.h>
-#include <unistd.h>
-#include <stdarg.h>
-#include <string.h>
+# include <stdio.h>
+# include <unistd.h>
+# include <stdarg.h>
+# include <string.h>
 
 int ft_printf(const char *str, ...);
 int	ft_print_d_i(int d);
